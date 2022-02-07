@@ -3,10 +3,16 @@ body {
     background-repeat: no-repeat;
 }
 
+header {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 h1 {
-    display: flex;
+    display: inline;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -43,4 +49,8 @@ figcaption {
 #coffee-image {
     height: 200px;
     width: 200px;
+}
+#kiddie-pool {
+    height: 400x;
+    width: 460px;
 }
